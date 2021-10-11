@@ -1,10 +1,28 @@
+
+.menu{
+    text-decoration: none;
+    padding: 0 5px;
+    margin: 0 5px;
+    color: white;
+}
+
 .custom-btn{
     border: 1px solid #0dcaf0;
+    border-radius: 5px;
     transition: 0.4s;
-    width: 30%;
+    width: 100%;
 }
-.custom-btn:hover{
+/* .custom-btn:hover{
     border: transparent;
     background-color: #0dcaf0;
     color: #fff;
+} */
+
+.user-img{
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    
 }

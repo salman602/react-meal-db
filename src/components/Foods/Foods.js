@@ -15,8 +15,10 @@ const Foods = (props) => {
                         <div className="card-body">
                             <h5 className="card-title">{strMeal}</h5>
                             <p className="card-text text-muted">{strInstructions.slice(0, 125)}</p>
-                            <a href={strYoutube}><button>Watch Video</button></a>
-                            <button onClick={() => props.handleAddMeal(props.food)}>Add the Meal</button>
+                            <a href={strYoutube}>
+                                <button className="mealdb-btn" >Watch Video</button>
+                            </a>
+                            <button className="mealdb-btn" onClick={() => props.handleAddMeal(props.food)}>Add the Meal</button>
                         </div>
                     </div>
                 </div>

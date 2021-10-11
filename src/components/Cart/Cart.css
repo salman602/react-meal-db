@@ -11,3 +11,12 @@
     font-size: 14px;
     text-align: left;
 }
+
+.order-btn{
+    font-size: 0.8rem;
+    width: 80%;
+    margin-right: 5px;
+    background-color: crimson;
+    border: 1px solid salmon;
+    color: #fff;
+}

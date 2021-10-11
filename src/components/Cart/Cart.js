@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Cart.css'
 const Cart = (props) => {
     // console.log(props);
@@ -18,6 +19,9 @@ const Cart = (props) => {
                     props.cart.map(item => <li className="li-styles" key={item.idMeal}>{item.strMeal}-{item.quantity} pieces</li>)
                 }
             </ul>
+            <Link to="/order">
+                <button className="order-btn">Procced to Order</button>
+            </Link>
         </div>
     );
 };

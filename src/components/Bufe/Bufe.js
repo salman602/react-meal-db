@@ -8,7 +8,7 @@ const Bufe = () => {
     useEffect(() => {
         fetch('https://www.themealdb.com/api/json/v1/1/search.php?f=s')
             .then(res => res.json())
-            .then(data => setFoods(data.meals))
+            .then(data => setFoods(data?.meals))
     }, []);
 
     useEffect(() => {
